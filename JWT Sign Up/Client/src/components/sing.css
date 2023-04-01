@@ -1,0 +1,25 @@
+.tt
+{
+    display: flex;
+    flex-direction: row;
+}
+.tz
+{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 40%;
+    top:0%;
+}
+#submit
+{
+    width: 60px;
+}
+#reset
+{
+    width: 60px;
+}
+#Nickname
+{
+    width: 60px;
+}
