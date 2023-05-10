@@ -1,0 +1,44 @@
+html
+{
+    width: 100%;
+    height: 100%!important;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+}
+.app{
+    position: relative;
+    margin-left: 25%;
+    width: 40%!important;
+    height: 100%!important;
+    margin-top: 2%;
+    font-size: 34px;
+    text-align: center;
+}
+.ta
+{
+    width: 99%!important;
+    height: 300px;
+    margin-top: 30px;
+    border:1px solid black;
+    overflow-y: auto;
+}
+.topic
+{
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+}
+.tt
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.tt> .box
+{
+    flex-grow: 1;
+    width: 60%;
+}

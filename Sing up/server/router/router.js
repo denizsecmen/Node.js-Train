@@ -1,0 +1,10 @@
+var express=require('express');
+var cont=require('../controller/cont');
+var admin=require('../controller/admin');
+var Router=express.Router();
+Router.post('/login',cont.login);
+Router.post('/signup',cont.sign);
+Router.post('/admin',admin.adminentrance);
+Router.post('/dashboard',cont.dashboard);
+Router.post('/item',cont.item);
+module.exports=Router;

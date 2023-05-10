@@ -1,0 +1,18 @@
+.main
+{
+    width: 30%;
+    height: 90px;
+}
+.abouttag
+{
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    margin-left: 100%;
+    margin-top: 10%;
+}
+.main > .topic{
+    text-align: center;
+    width: 100%;
+    margin-left: 100%;
+}
